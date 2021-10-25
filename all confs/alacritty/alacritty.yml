@@ -1,0 +1,34 @@
+import:
+  - /home/hackme/.config/alacritty/dracula.yml
+env:
+  TERM: alacritty
+padding:
+    x: 6
+    y: 6
+tabspaces: 8
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: BitstreamVeraSansMono Nerd Font
+    #family: FuraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: BitstreamVeraSansMono Nerd Font
+    #family: FuraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: BitstreamVeraSansMono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Italic
+
+  size: 10.0
+draw_bold_text_with_bright_colors: true
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
